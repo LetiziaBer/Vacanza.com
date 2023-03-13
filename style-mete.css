@@ -31,3 +31,12 @@ h1{
 .sezione1 p{
     margin: 2%;
 }
+
+.sezione3{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+.button3{
+     /* allineare a fine bordo  */
+}
