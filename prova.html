@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/c73e42895f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="stile-condiviso.css">
+    <link rel="stylesheet" href="style-carosello.css">
+    <link rel="stylesheet" href="style-prova.css">
+    <title>Prova</title>
+</head>
+<body>
+
+  <!-- barra di navigazione -->
+  <nav class="navbar navbar-expand-lg $blue-100" id="nav-bar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="prova.html">Vacanza.com</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="destinazioni.html">Destinazioni</a>
+          <a class="nav-link" href="#">Last minute</a>
+          <a class="nav-link" href="#">Villaggi</a>
+          <a class="nav-link" href="#">Offerte</a>
+        </div>
+      </div>
+    </div>
+    <div class="icons">
+      <i class="fa-sharp fa-solid fa-bars"></i>
+      <i class="fa-solid fa-user"></i>
+    </div>
+  </nav>
+  <main>
+
+    <!-- carosello -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Img/spiaggia-rosa.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/Img/relitto.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/Img/occhiali-sabbia.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+      <!-- form di ricerca -->   
+
+
+      <div class="box-form">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text">Dove vuoi andare?</input>
+      </div>
+
+    </div>
+
+
+
+<!-- sezione 1 -->
+  <section class="sezione1">
+    <h2 class="cardtitle">Scegli la tua destinazione</h2> <br>
+      <div class="row row-cols-1 row-cols-md-3 g-4" class="mydivcards">
+          <div class="col" class="contenitorecard">
+              <div class="card h-100">
+                <img src="/Img/colosseo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Italia</h5>
+                  <p class="card-text">Dalla città alla campagna, dal mare alla montagna, lasciati ispirare dalle idee vacanze più belle lungo tutto il territorio italiano.</p>
+                  <a href="italia.html" class="btn btn-primary">Vai alle mete</a>
+                </div>
+              </div>
+            </div>
+            <div class="col" class="contenitorecard">
+              <div class="card h-100">
+                <img src="/Img/piramide-di-vetro.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Francia</h5>
+                  <p class="card-text">La Francia vanta un’incredibile varietà di paesaggi, città, borghi incantevoli e atmosfere suggestive: la quantità infinita di cose da vedere in Francia, la rende una delle più importanti destinazioni turistiche al mondo, con oltre 90 milioni di visitatori all’anno.</p>
+                  <a href="francia.html" class="btn btn-primary">Vai alle mete</a>
+                </div>
+              </div>
+            </div>
+            <div class="col" class="contenitorecard">
+              <div class="card h-100">
+                <img src="Img/santorini.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Grecia</h5>
+                  <p class="card-text">La Grecia è famosa in tutto il mondo per la bellezza delle sue isole e delle sue spiagge. Organizza con noi la tua prossima vacanza nelle isole greche!</p>
+                  <a href="grecia.html" class="btn btn-primary">Vai alle mete</a>
+                </div>
+              </div>
+            </div>
+        </div>
+  </section>
+
+  <!-- sezione 2 -->
+  <section class="sezione2">
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-6">.col-6</div>
+        <div class="col-6">.col-6</div>
+      </div>
+
+    <div class="row">
+      <div class="col-6">.col-6</div>
+      <div class="col-6">.col-6</div>
+    </div>
+  </div> -->
+  <div class="container-quadrato">
+    <div class="quadrato pasqua">
+      <div class="card etichetta" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Promo Pasqua</h5>
+          <p class="card-text">Vuoi andartene via nelle vacanze ma non sai dove, vedi le nostre offerte</p>
+        </div>
+      </div>
+    </div>
+    <div class="quadrato last-minute">
+        <div class="card etichetta" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Last minute</h5>
+            <p class="card-text">Fantastiche offerte per i prossimi giorni</p>
+          </div>
+      </div>
+    </div>
+    <div class="quadrato piu-visitati">
+      <div class="card etichetta" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Piu visitate</h5>
+          <p class="card-text">Le mete preferite dai nostri clienti</p>
+        </div>
+      </div> 
+    </div>
+  </div>
+  </section>
+  
+    
+
+  
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <div class="top-footer">
+      <div class="left-side">
+        <p>Sei interessato e hai bisogno di contattarci?</p>
+        <div class="item-container">
+          <div class="item">
+            <i class="fa-solid fa-calendar-days"></i>
+            <span>Prenota una consulenza &RightArrow;</span>
+          </div>
+          <div class="item"> 
+            <i class="fa-solid fa-handshake"></i>
+            <span>Vieni a trovarci in agenzia &RightArrow;</span>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-phone"></i>
+            <span>contattaci &RightArrow;</span>
+          </div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div id="contatti">
+          <p>Chiamaci dal Lunedì alla domenica, se avremo voglia ti risponderemo... oppure no</p>
+        
+          <span>3333333333</span>
+        </div>
+      </div>
+    </div>
+    <div class="sub-footer">
+      <div class="testo-sub">
+      <span>Perché scegliere Vacanza.com?</span>
+      </div>
+      <div class="container-sub-footer">
+        <div class="item-sub">
+          <i class="fa-sharp fa-solid fa-euro-sign"></i>
+          <span>Risparmi </span>
+        </div>
+
+        <div class="item-sub">
+          <i class="fa-sharp fa-solid fa-comments"></i>
+          <span>Assistenza 24/7 </span>
+        </div>
+        
+        <div class="item-sub">
+          <i class="fa-solid fa-sack-dollar"></i>
+          <span> 100% soddisfatti o rimborsati </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+<script src="bootstrap.bundle.js">
+  
+</script>
+</body>
+</html>
